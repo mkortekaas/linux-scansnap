@@ -54,7 +54,6 @@ convert *png $OUTFILE
 
 # copy this file where you want it - usually a cloud location
 # Setup this separately
-#${GDRIVE} upload -p 1565Oe0hXVCILOW8hpM1kwEV62fl3jbCX $OUTFILE
 ${GDRIVE} upload -p ${GPARENT} $OUTFILE
 
 # Cleanup the files we've used / OPTIONAL 
